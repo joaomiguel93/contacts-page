@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./assets/background-bubble.jpg);
+    background-size: cover;
+}
+.container-form{
+    border: 3px solid transparent;
+    height: 50vh;
+    width: 60vw;
+    border-radius: 10px;
+
+    background-image: url(./assets/background-bubble.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 20px;
+}
+
+/* Formulario*/
+h1{
+    text-align: center;
+    margin: 0 5px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px gray;
+    border-bottom: 5px black solid;
+}
+
+.formulario, .mensagem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px gray;
+}
+ 
+form input[type="nome"],
+form input[type="tel"],
+form input[type="email"]{
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: rgb(209, 209, 209);
+}
+
+form input[type="mensagem"]{
+    height: 300px;
+    background-color: rgb(209, 209, 209);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+form input[type="submit"]{
+    font-size: 3em;
+    padding: 3px;
+    color: rgb(5, 5, 5);
+    border-radius: 5px;
+    cursor: pointer;
+}

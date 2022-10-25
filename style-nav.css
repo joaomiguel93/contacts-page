@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+header a{
+    padding: 0px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+nav a:hover{
+    padding: 3px;
+    transform: scale(1.03);
+    border-radius: 5px;
+}
