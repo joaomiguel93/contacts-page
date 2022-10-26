@@ -5,13 +5,15 @@
 }
 
 body{
+    background-image: url(./assets/background-bubble.jpg);
+    background-size: cover;
+}
+
+main{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-image: url(./assets/background-bubble.jpg);
-    background-size: cover;
 }
 .container-form{
     border: 3px solid transparent;
