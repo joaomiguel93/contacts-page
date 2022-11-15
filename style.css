@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(./assets/background-bubble.jpg);
+    background-color: #314f70;
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ main{
     width: 60vw;
     border-radius: 10px;
 
-    background-image: url(./assets/background-bubble.jpg);
+    background-color: #aec5db;
     background-size: cover;
     box-shadow: 5px 5px 20px;
 }
@@ -44,17 +44,30 @@ h1{
 }
  
 form input[type="nome"],
-form input[type="tel"],
 form input[type="email"]{
     height: 30px;
     border: 2px solid #000;
     border-radius: 4px;
     background-color: rgb(209, 209, 209);
+    outline: 0;
 }
 
-form input[type="mensagem"]{
-    height: 300px;
+
+form input[type="nome"],
+form input[type="email"]::placeholder{
+    padding-left: 10px;
+}
+
+form input[type="textarea"]::placeholder{
+    padding-left: 10px;
+    text-align: center;
+}
+
+form input[type="textarea"]{
+    height: 15em;
     background-color: rgb(209, 209, 209);
+    border-radius: 4px;
+    outline: 0;
 }
 
 .button{
@@ -64,7 +77,7 @@ form input[type="mensagem"]{
 }
 
 form input[type="submit"]{
-    font-size: 3em;
+    font-size: 2em;
     padding: 3px;
     color: rgb(5, 5, 5);
     border-radius: 5px;
